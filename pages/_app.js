@@ -8,6 +8,7 @@ const MyApp = ({ Component, pageProps }) => {
         <Link href="/">Home</Link>
            
             <Link href="/about">AboutUs</Link>
+            <Link href="/productpage">ProductPage</Link>
             <Component {...pageProps} />
             <footer>Designed By SINGH</footer>
         </>
